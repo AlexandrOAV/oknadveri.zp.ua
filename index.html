@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Центр віконних систем</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header-page">
+      <div class="container">
+        <a href="/index.html" class="logo-text link">Центр віконних систем</a>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="icon-menu-open-btn" width="22" height="20">
+            <use href="./img/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu-block is-hidden" data-menu>
+        <div class="container">
+          <nav class="mob-menu">
+            <ul class="menu-list list">
+              <li class="menu-item">
+                <a class="link menu-link" href="/index.html">Головна</a>
+              </li>
+              <li class="menu-item">
+                <a class="link menu-link" href="">Про нас</a>
+              </li>
+              <li class="menu-item">
+                <a class="link menu-link" href="">Продукція</a>
+                <ul class="sub-menu-list list">
+                  <li class="sub-menu-item">
+                    <a class="link menu-link" href="">Наші вікна</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a class="link menu-link" href="">
+                      Рулонні, римські штори та пліссе</a
+                    >
+                  </li>
+                  <li class="sub-menu-item">
+                    <a class="link menu-link" href="">Звнішній сонцезахист</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a class="link menu-link" href="">Вхідні двері</a>
+                  </li>
+                  <li class="sub-menu-item">
+                    <a class="link menu-link" href="">Міжкімнатні двері</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a class="link menu-link" href="">Послуги</a>
+              </li>
+              <li class="menu-item">
+                <a class="link menu-link" href="">Контакти</a>
+              </li>
+              <li class="menu-item">
+                <a class="link menu-link" href="">Магазин</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
