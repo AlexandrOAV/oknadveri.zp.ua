@@ -6,8 +6,7 @@
 --text-sub-menu:#eeebeb;
 --background-menu: rgba(0, 102, 191, 0.7);
 --hover-menu: #876ff3;
-
-
+--color-btn:#4400ff;
 
 }
 /* Скриття заголовків */
@@ -68,7 +67,7 @@ body {
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
 }
 .is-hidden {
     visibility: hidden;
@@ -76,6 +75,9 @@ body {
     pointer-events: none;
 }
 /* Хедер */
+.menu-section{
+    display: none;
+}
 .header-page {
     position: relative;
     display: block;
@@ -127,7 +129,7 @@ background-size: cover;
    top:50%;
    transform: translateY(-50%);
     position: absolute;
-    fill:var(--text-h);
+    fill:currentColor;
     left:0;
 }
 .menu-open-btn{
