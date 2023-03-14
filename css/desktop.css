@@ -1,0 +1,44 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1160px;
+    }
+        .logo-text {
+            font-size: 32px;
+       }
+.tel-link,
+.mail-link {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 30px;
+    font-size: 24px;
+   
+}
+.conection-list {
+
+    gap: 16px;
+    justify-content: start;
+
+}
+.glav-menu-list {
+
+    gap: 16px;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.glav-menu-link {
+
+    
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.prod-sub-menu-list {
+    border: 2px solid var(--color-btn);
+ }
+  .prod-menu-link {
+      font-weight: 700;
+      font-size: 18px;
+      
+  }
+}

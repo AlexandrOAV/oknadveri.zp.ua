@@ -27,6 +27,7 @@ border-radius: 6px;
 transition: color 300ms linear, background-color 300ms linear ;
 }
 .conection-list {
+
     flex-wrap: nowrap;
     gap: 16px;
     justify-content:space-between;
@@ -37,7 +38,7 @@ transition: color 300ms linear, background-color 300ms linear ;
 }
 .tel-link:is(:hover, :focus),
 .mail-link:is(:hover, :focus){
-    /* font-size: 16px; */
+
         color: var(--color-btn);
         background-color: var(--text-menu);
 }
@@ -90,11 +91,7 @@ transition: color 300ms linear, background-color 300ms linear ;
     padding: 8px 8px;
     background-color: #ffffff;
     position: absolute;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--text-color-site);
+ 
     top: 0;
     opacity: 0;
     transform: translateY(-40%);
