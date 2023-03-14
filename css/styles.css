@@ -189,3 +189,42 @@ position: absolute;
 .menu-link:is(:hover, :focus){
     color:var(--hover-menu);
 }
+/* section hero */
+.hero{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(143, 142, 142);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.8),
+            rgba(46, 47, 66, 0.8)), url(../img/fon-mob-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.hero h1 {
+    font-weight: 900;
+    font-style:normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-menu);
+     }
+     .hero-soc {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-top: 15px;
+     }
+     .hero-text{
+        font-weight: 500;
+            font-style: normal;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 24px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--text-sub-menu);
+            margin-top: 15px;
+     }
+     
+    
