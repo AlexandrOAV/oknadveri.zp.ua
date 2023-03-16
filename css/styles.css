@@ -74,6 +74,17 @@ body {
     opacity: 0;
     pointer-events: none;
 }
+@keyframes vilet {
+    0%{
+opacity: 0;
+    }
+
+    100% {
+    opacity: 1;
+  
+    }
+
+}
 /* Хедер */
 .menu-section{
     display: none;
@@ -142,6 +153,7 @@ position: absolute;
     cursor: pointer;
 }
 .mob-menu-block{
+    z-index: 1;
     position: absolute;
     top: 100%;
     left: 0;
@@ -200,6 +212,8 @@ position: absolute;
     background-size: cover;    
 }
 .hero h1 {
+    animation-name: vilet;
+    animation-duration: 2000ms;
     font-weight: 900;
     font-style:normal;
     text-align: center;
@@ -208,6 +222,8 @@ position: absolute;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--text-menu);
+    text-shadow: 0 0 20px rgb(165, 173, 199);
+       
      }
      .hero-soc {
         display: flex;
@@ -216,6 +232,10 @@ position: absolute;
         margin-top: 15px;
      }
      .hero-text{
+        animation-name: vilet;
+            animation-delay: 1000ms;
+            animation-duration: 2000ms;
+            animation-fill-mode: both;
         font-weight: 500;
             font-style: normal;
             text-align: center;
@@ -226,5 +246,6 @@ position: absolute;
             color: var(--text-sub-menu);
             margin-top: 15px;
      }
-     
+   
+
     
